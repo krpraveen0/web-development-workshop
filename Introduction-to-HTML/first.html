@@ -3,20 +3,34 @@
 
 <head>
     <title>My First WebPage</title>
+    <style>
+        #content-heading{
+            color: red;
+        }
+        .content-font-color{
+            color: blue;
+        }
+        #sub-heading{
+            color: green;
+        }
+        .table-border{
+            border-color: green;
+        }
+    </style>
 </head>
 
-<body>
+<body style="background-color: beige;">
     <div>
-        <h1>Introduction to the AI technology.</h1>
+        <h1 id="content-heading">Introduction to the AI technology.</h1>
         <hr>
-        <div>
+        <div class="content-font-color">
             <p>Artificial Intelligence, commonly referred to as AI, is a branch of computer science that deals with the
                 creation of intelligent machines that can perform tasks that typically require human intelligence, such
                 as understanding natural language, recognizing objects, solving problems, and even making decisions. AI
                 involves developing algorithms and computer programs that enable machines to learn from data and
                 experience, adapt to new situations, and perform tasks that are not explicitly programmed.</p>
         </div>
-        <div>
+        <div class="content-font-color">
             <!-- List 
                 - ordered list 
                 - unordered list
@@ -33,9 +47,9 @@
                     outcomes and avoiding those that lead to negative ones.</li>
             </ol>
         </div>
-        <div>
-            <h3>Difference Between AI & ML</h3>
-            <table border="1px">
+        <div class="content-font-color">
+            <h3 id="sub-heading">Difference Between AI & ML</h3>
+            <table class="table-border" border="5px">
                 <caption>Difference Between AI & ML</caption>
                 <thead>
 
